@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas</title>
+    <link rel="stylesheet" href="../css/styleetiquetas.css">
+
+</head>
+<body>
+
+     <header id="inicio">
+
+        <img src="../images/images-index/html-5.png" alt="icon-html5" id="img-p">
+
+        <nav id="navegacion-p">
+            <a href="../index.html">Inicio</a> 
+            <a href="../html/etiquetas.html">Etiquetas </a>
+            <a href="../html/atributos.html">Atributos</a> 
+            <a href="../html/css.html">CSS </a>
+            <a href="../html/Javascript.html">JavaScript</a>
+        </nav>
+
+        <nav id="acerca">
+            <a href="../html/contactos.html">Contactos</a>
+            <a href="">Acerca de</a>
+        </nav>
+
+    </header>
+    <br>
+
+    <section class="contenido">
+
+        <div id="contenido-p">
+        
+
+            <h2>Contenido</h2>
+
+            <ol style="display: flex; position: relative; gap: 65px; left: -15px;" >
+                <li><a href="#grupo1" class="nostyle">-Atributos Globales</a>
+                    <ol>
+                        <li><a href="#p1">html</a></li>
+                        <li><a href="#p2">head</a></li>
+                        <li><a href="#p3">body</a></li>
+                    </ol>
+                </li>
+
+                <li><a href="#grupo2" class="nostyle">-Etiquetas de Meta Datos.</a>
+                    <ol>
+                        <li><a href="#p4">meta</a></li>
+                        <li><a href="#p4">style</a></li>
+                        <li><a href="#p6">title</a></li>
+                        <li><a href="#p7">base</a></li>
+                        <li><a href="#p8">link</a></li>
+                    </ol>
+                </li>
+
+                <li><a href="#grupo3" class="nostyle">-Etiquetas de Agrupacion.</a>
+                    <ol>
+                        <li><a href="#p9">p</a></li>
+                        <li><a href="#p10">hr</a></li>
+                        <li><a href="#p11">ul</a></li>
+                        <li><a href="#p12">div</a></li>
+                        <li><a href="#p13">div</a></li>
+                        <li><a href="#p14">figcaption</a></li>
+                    </ol>
+                </li>
+
+                <li><a href="#grupo4" class="nostyle">-Etiquetas Textuales.</a>
+                    <ol>
+                        <li><a href="#p15">a</a></li>
+                        <li><a href="#p16">span</a></li>
+                        <li><a href="#p17">sub</a></li>
+                        <li><a href="#p18">sup</a></li>
+                        <li><a href="#p19">cite</a></li>
+                    </ol>
+                </li>
+
+                <li><a href="#grupo5" class="nostyle">-Etiquetas Semanticas.</a>
+                    <ol>
+                        <li><a href="#p20">nav</a></li>
+                        <li><a href="#p21">section</a></li>
+                        <li><a href="#p22">article</a></li>
+                        <li><a href="#p23">header</a></li>
+                        <li><a href="#p24">main</a></li>
+                        <li><a href="#p25">footer</a></li>
+                    </ol>
+                </li>
+
+            </ol>
+        
+        </div>
+        <br>
+     
+    </section>
+    <br>
+
+    <section id="grupo1">
+
+        <h2 class="titulos">Etiquetas de documento</h2>
+        <hr>
+
+        <article>
+
+            <h2>¿Qué son?</h2>
+            <p>Las etiquetas de documento son las que forman la estructura básica de cualquier archivo HTML. Indican el inicio y el final del documento, además de dividirlo en secciones importantes como el encabezado y el cuerpo. Son las primeras etiquetas que debe aprender cualquier persona que empiece a crear páginas web. Sin ellas, el navegador no podría interpretar correctamente el contenido.</p>
+
+            <br>
+    
+        </article>
+
+        <article id="p1">
+
+            <h2>HTML</h2>
+            <p>La etiqueta <strong>html</strong> marca el inicio y el fin de un documento HTML. Todo el contenido de la página, incluyendo el encabezado y el cuerpo, debe ir dentro de ella. Indica al navegador que el texto dentro pertenece a una página web estructurada con HTML.</p>
+
+            <br>
+            <img src="../images/images-index/HTML5_logo_and_wordmark.svg.png" alt="html" height="200px" width="200px" >
+            <br><br>
+
+        </article>
+
+        <br>
+
+        <article id="p2">
+
+            <h2>head</h2>
+            <p>La etiqueta <strong>head</strong> contiene información que no se muestra directamente en la página, pero que es esencial para su funcionamiento. Aquí se colocan el título, los metadatos, enlaces a hojas de estilo y scripts. Es el “cerebro” del documento HTML.</p>
+
+            <br>
+            <img src="../images/images-index/estructura-documento-html.png" alt="etiqueta head" height="200px" width="400px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+        <article id="p3">
+
+            <h2>body</h2>
+            <p>La etiqueta <strong>body</strong> encierra todo el contenido visible de una página web. Dentro se colocan los textos, imágenes, enlaces, listas y cualquier elemento que el usuario pueda ver o interactuar con. Es el “cuerpo” del documento HTML.</p>
+
+            <br>
+            <img src="../images/images-index/reglas.jpg" alt="etiqueta body" height="300px" width="400px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+    </section>
+    <br>
+
+    <section id="grupo2">
+
+        <h2 class="titulos">Etiqueta de meta datos</h2>
+        <hr>
+
+        <article>
+
+            <h2>¿Qué son?</h2>
+            <p>Estas etiquetas proporcionan información sobre la página que no se ve directamente, pero que ayuda a los navegadores, buscadores y redes sociales a interpretarla mejor. Se colocan dentro del <strong>head</strong> y son esenciales para la optimización web y el diseño.</p>
+
+            <br>
+    
+        </article>
+
+        <article id="p4">
+
+            <h2>Meta</h2>
+            <p>La etiqueta <strong>meta</strong> define metadatos como la codificación de caracteres, la descripción del sitio o las palabras clave. Ayuda al navegador y a los motores de búsqueda a entender de qué trata la página.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 2/foto1.png" alt="etiqueta meta" height="200px" width="400px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+        <article id="p5">
+
+            <h2>Style</h2>
+            <p>Con la etiqueta <strong>style</strong> se pueden incluir reglas CSS directamente en el documento HTML. Sirve para dar color, tamaño o formato al contenido sin necesidad de un archivo externo.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 2/foto2.jpg" alt="etiquetas html" height="200px" width="400px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+        <article id="p6">
+
+            <h2>Title</h2>
+            <p>La etiqueta <strong>title</strong> establece el título que aparece en la pestaña del navegador. También es importante para el SEO, ya que los buscadores lo usan para identificar la página.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 2/foto3.jpg" alt="etiqueta title" height="200px" width="400px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+        <article id="p7">
+
+            <h2>Base</h2>
+            <p>La etiqueta <strong>base</strong> define una URL base para todos los enlaces y rutas de la página. Esto permite escribir direcciones relativas en lugar de absolutas, facilitando la organización del sitio</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 2/foto4.png" alt="etiqueta base" height="400px" width="400px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+        <article id="p8">
+
+            <h2>Link</h2>
+            <p>La etiqueta <strong>link</strong> conecta el documento con archivos externos, como hojas de estilo CSS o íconos del sitio. Se utiliza mucho para enlazar estilos que mejoran el diseño visual.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 2/foto5.png" alt="etiqueta link" height="200px" width="400px">
+
+            <br><br>
+
+        </article>
+        <br>
+
+    </section>
+
+    <section id="grupo3">
+
+        <h2 class="titulos">Etiquetas de Agrupacion</h2>
+        <hr>
+
+        <article>
+
+            <h2>¿Qué son?</h2>
+            <p>Estas etiquetas se utilizan para organizar y agrupar bloques de contenido dentro del cuerpo del documento. Ayudan a estructurar el texto y a mantener el orden visual y semántico de la página.</p>
+
+            <br>
+    
+        </article>
+
+        <article id="p9">
+
+            <h2>p</h2>
+            <p>La etiqueta <strong>p</strong> define un párrafo. Es una de las más comunes y sirve para separar bloques de texto con un espacio entre ellos.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 3/foto6.webp" alt="etiqueta p" height="200px" width="400px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+        <article id="p10">
+
+            <h2>hr</h2>
+            <p>La etiqueta <strong>hr</strong> crea una línea horizontal que divide secciones o temas dentro de una página. Es útil para separar contenido visualmente.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 3/hr.webp" alt="etiqueta hr" height="300px" width="500px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+        <article id="p11">
+
+            <h2>ul</h2>
+            <p>La etiqueta <strong>ul</strong> se usa para crear listas no ordenadas, es decir, con viñetas o puntos. Dentro de ella se colocan los elementos con <strong>li</strong>.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 3/li.png" alt="etiqueta ul" height="200px" width="400px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+        <article id="p12">
+
+            <h2>div</h2>
+            <p>La etiqueta <strong>div</strong> sirve para agrupar varios elementos en un solo bloque. Es muy utilizada para maquetar páginas y aplicar estilos específicos a ciertas secciones.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 3/div.png" alt="etiqueta div" height="250px" width="400px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+        <article id="p13">
+
+            <h2>figure</h2>
+            <p>La etiqueta <strong>figure</strong> se usa para incluir contenido visual como imágenes, diagramas o gráficos, junto con su descripción o pie de imagen.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 3/figure.png" alt="etiqueta figure" height="400px" width="400px">
+
+            <br><br>
+
+        </article>
+        <br>
+
+        <article id="p14">
+
+            <h2>figcaption</h2>
+            <p>La etiqueta <strong>figcaption</strong> añade una descripción o título a un elemento <strong>    </strong>. Ayuda a dar contexto a las imágenes o ilustraciones.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 3/figcaption.png" alt="etiqueta figcaption" height="300px" width="500px">
+
+            <br><br>
+
+        </article>
+
+    </section>
+
+    <br>
+
+  
+
+
+    <footer>
+        <h2>Empresa - <a href="https://www.dgii.gov.do/Paginas/default.aspx" target="_blank" rel="noopener noreferrer">Derechos reservados</a></h2>
+        
+        <h2><a href="#">Contactanos</a></h2>
+    </footer>
+
+    
+</body>
+</html>

@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas</title>
+    <link rel="stylesheet" href="../css/styleetiquetas.css">
+
+</head>
+<body>
+
+     <header id="inicio">
+
+        <img src="../images/images-index/html-5.png" alt="icon-html5" id="img-p">
+
+        <nav id="navegacion-p">
+            <a href="../index.html">Inicio</a> 
+            <a href="../html/etiquetas.html">Etiquetas </a>
+            <a href="../html/atributos.html">Atributos</a> 
+            <a href="../html/css.html">CSS </a>
+            <a href="../html/Javascript.html">JavaScript</a>
+        </nav>
+
+        <nav id="acerca">
+            <a href="../html/contactos.html">Contactos</a>
+            <a href="">Acerca de</a>
+        </nav>
+
+    </header>
+    <br>
+
+    <section class="contenido">
+
+        <div id="contenido-p">
+        
+
+            <h2>Contenido</h2>
+
+            <ol style="display: flex; position: relative; gap: 65px; left: -15px;" >
+                <li><a href="#grupo1" class="nostyle">-Etiquetas de documento</a>
+                    <ol>
+                        <li><a href="#p1">id</a></li>
+                        <li><a href="#p2">class</a></li>
+                        <li><a href="#p3">style</a></li>
+                    </ol>
+                </li>
+
+                <li><a href="#grupo2" class="nostyle">-Atributos Form</a>
+                    <ol>
+                        <li><a href="#p4">action</a></li>
+                        <li><a href="#p4">method</a></li>
+
+                    </ol>
+                </li>
+
+                <li><a href="#grupo3" class="nostyle">-Atributos Input</a>
+                    <ol>
+                        <li><a href="#p9">type</a></li>
+                        <li><a href="#p10">placeholder</a></li>
+                        <li><a href="#p11">value</a></li>
+   
+                    </ol>
+                </li>
+
+            </ol>
+        
+        </div>
+        <br>
+     
+    </section>
+    <br>
+
+    <section id="grupo1">
+
+        <h2 class="titulos">Atributos Globales</h2>
+        <hr>
+
+        <article>
+
+            <h2>¿Qué son?</h2>
+            <p>Los atributos globales son aquellos que se pueden aplicar a casi cualquier etiqueta HTML, sin importar su tipo o función. Sirven para controlar aspectos como la identificación, el estilo o el comportamiento de los elementos. Estos atributos permiten personalizar y manipular los componentes del documento de forma más precisa y flexible, tanto con CSS como con JavaScript.</p>
+
+            <br>
+    
+        </article>
+
+        <article id="p1">
+
+            <h2>id</h2>
+            <p>El atributo id se usa para asignar un identificador único a un elemento HTML. Este sirve para referirse a ese elemento desde CSS o JavaScript. Por ejemplo: (p id="texto1">Hola -p). No puede repetirse dentro del mismo documento.</p>
+
+            <br>
+            <img src="../images/images-atributos/grupo 1/a-1664528560325-2x.avif" alt="id" height="200px" width="400px" >
+            <br><br>
+
+        </article>
+
+        <br>
+
+        <article id="p2">
+
+            <h2>class</h2>
+            <p>El atributo class permite agrupar varios elementos bajo una misma categoría. Es muy útil para aplicar estilos con CSS o realizar acciones con JavaScript. A diferencia de id, se puede usar en muchos elementos a la vez.</p>
+
+            <br>
+            <img src="../images/images-atributos/grupo 1/class.png" alt="class" height="200px" width="400px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+        <article id="p3">
+
+            <h2>style</h2>
+            <p>El atributo style se utiliza para aplicar estilos directamente dentro de la etiqueta HTML. Permite modificar colores, tamaños o fuentes de forma rápida, aunque lo más recomendable es usar archivos CSS externos.</p>
+
+            <br>
+            <img src="../images/images-atributos/grupo 1/STYLE.png" alt="style" height="300px" width="400px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+    </section>
+    <br>
+
+    <section id="grupo2">
+
+        <h2 class="titulos">Atributos Form</h2>
+        <hr>
+
+        <article>
+
+            <h2>¿Qué son?</h2>
+            <p>Los atributos de formulario controlan el comportamiento de las etiquetas que forman parte de un <strong>form</strong>. Ayudan a definir cómo se envían los datos, a qué dirección van y qué método se utiliza. Son esenciales para crear formularios funcionales y seguros en una página web.</p>
+
+            <br>
+    
+        </article>
+
+        <article id="p4">
+
+            <h2>action</h2>
+            <p>El atributo action indica la dirección (URL) a donde se enviarán los datos del formulario una vez que el usuario lo envíe. Por ejemplo: form action="procesar.php">.</p>
+
+          
+            <br><br>
+
+        </article>
+
+        <br>
+
+        <article id="p5">
+
+            <h2>method</h2>
+            <p>El atributo method especifica cómo se enviarán los datos del formulario. Los valores más comunes son GET (los datos se ven en la URL) y POST (los datos se envían de forma oculta, más segura).</p>
+
+          
+            <br><br>
+
+        </article>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DVU0ZWnmx1U?si=o88BlWioxe6bPCln" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <br>
+
+    </section>
+
+    <br>
+
+    <section id="grupo3">
+
+        <h2 class="titulos">Etiquetas de Agrupacion</h2>
+        <hr>
+
+        <article>
+
+            <h2>¿Qué son?</h2>
+            <p>Estas etiquetas se utilizan para organizar y agrupar bloques de contenido dentro del cuerpo del documento. Ayudan a estructurar el texto y a mantener el orden visual y semántico de la página.</p>
+
+            <br>
+    
+        </article>
+
+        <article id="p9">
+
+            <h2>p</h2>
+            <p>La etiqueta <strong>p</strong> define un párrafo. Es una de las más comunes y sirve para separar bloques de texto con un espacio entre ellos.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 3/foto6.webp" alt="etiqueta p" height="200px" width="400px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+        <article id="p10">
+
+            <h2>hr</h2>
+            <p>La etiqueta <strong>hr</strong> crea una línea horizontal que divide secciones o temas dentro de una página. Es útil para separar contenido visualmente.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 3/hr.webp" alt="etiqueta hr" height="300px" width="500px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+        <article id="p11">
+
+            <h2>ul</h2>
+            <p>La etiqueta <strong>ul</strong> se usa para crear listas no ordenadas, es decir, con viñetas o puntos. Dentro de ella se colocan los elementos con <strong>li</strong>.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 3/li.png" alt="etiqueta ul" height="200px" width="400px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+        <article id="p12">
+
+            <h2>div</h2>
+            <p>La etiqueta <strong>div</strong> sirve para agrupar varios elementos en un solo bloque. Es muy utilizada para maquetar páginas y aplicar estilos específicos a ciertas secciones.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 3/div.png" alt="etiqueta div" height="250px" width="400px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+        <article id="p13">
+
+            <h2>figure</h2>
+            <p>La etiqueta <strong>figure</strong> se usa para incluir contenido visual como imágenes, diagramas o gráficos, junto con su descripción o pie de imagen.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 3/figure.png" alt="etiqueta figure" height="400px" width="400px">
+
+            <br><br>
+
+        </article>
+        <br>
+
+        <article id="p14">
+
+            <h2>figcaption</h2>
+            <p>La etiqueta <strong>figcaption</strong> añade una descripción o título a un elemento <strong>    </strong>. Ayuda a dar contexto a las imágenes o ilustraciones.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 3/figcaption.png" alt="etiqueta figcaption" height="300px" width="500px">
+
+            <br><br>
+
+        </article>
+
+    </section>
+
+    <br>
+
+    <section id="grupo4">
+
+        <h2 class="titulos">Etiquetas textuales</h2>
+        <hr>
+
+        <article>
+
+            <h2>¿Qué son?</h2>
+            <p>Estas etiquetas afectan directamente al texto, modificando su estilo o función dentro de un documento HTML. Permiten crear enlaces, aplicar formatos o resaltar partes del contenido.</p>
+
+            <br>
+    
+        </article>
+
+        <article id="p15">
+
+            <h2>a</h2>
+            <p>La etiqueta <strong>a</strong> crea enlaces a otras páginas o secciones. Es fundamental para la navegación web y puede incluir tanto direcciones internas como externas.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 4/a.png" alt="etiqueta a" height="200px" width="400px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+        <article id="p16">
+
+            <h2>span</h2>
+            <p>La etiqueta <strong>span</strong> se usa para aplicar estilos o scripts a una parte específica del texto sin romper la línea. Es muy útil para resaltar palabras o frases.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 4/span.png" alt="etiqueta span" height="200px" width="300px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+        <article id="p17">
+
+            <h2>sub</h2>
+            <p>La etiqueta <strong>sub</strong> muestra texto en subíndice, colocándolo ligeramente por debajo de la línea normal. Se usa en fórmulas químicas o matemáticas.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 4/sub.webp" alt="etiqueta sub" height="200px" width="300px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+        <article id="p18">
+
+            <h2>sup</h2>
+            <p>La etiqueta <strong>sup</strong> muestra texto en superíndice, es decir, más pequeño y elevado. Se usa para exponentes o notas al pie.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 4/sup.webp" alt="etiqueta sup" height="250px" width="300px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+        <article id="p19">
+
+            <h2>cite</h2>
+            <p>La etiqueta <strong>cite</strong> se utiliza para indicar el título de una obra, libro o fuente. Suele mostrarse en cursiva para destacar su referencia.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 4/cite.png" alt="etiqueta cite" height="250px" width="400px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+    </section>
+
+    <br>
+
+    <section id="grupo5">
+
+        <h2 class="titulos">Etiquetas Semanticas</h2>
+        <hr>
+
+        <article>
+
+            <h2>¿Qué son?</h2>
+            <p>Las etiquetas semánticas describen claramente el propósito de cada parte del contenido. Facilitan la lectura tanto para los usuarios como para los motores de búsqueda, mejorando la estructura y accesibilidad de la web.</p>
+
+            <br>
+    
+        </article>
+
+        <br>
+
+        <article id="p20">
+
+            <h2>nav</h2>
+            <p>La etiqueta <strong>nav</strong> agrupa los enlaces principales de navegación del sitio. Generalmente se coloca al inicio o en menús laterales.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 5/nav1.png" alt="etiqueta nav" height="200px" width="400px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+        <article id="p21">
+
+            <h2>section</h2>
+            <p>La etiqueta <strong>section</strong> define una sección o bloque de contenido con un tema específico. Se usa para dividir la página en partes organizadas.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 5/section.gif" alt="etiqueta section" height="200px" width="200px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+        <article id="p22">
+
+            <h2>article</h2>
+            <p>La etiqueta <strong>article</strong> contiene información independiente, como una noticia, entrada de blog o publicación. Es un bloque que puede existir por sí mismo.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 5/article.png" alt="etiqueta article" height="200px" width="200px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+        <article id="p23">
+
+            <h2>header</h2>
+            <p>La etiqueta <strong></strong> se usa para la parte superior de una página o sección. Suele incluir el logo, el título o el menú de navegación.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 5/section.gif" alt="etiqueta header" height="200px" width="200px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+        <article id="p24">
+
+            <h2>main</h2>
+            <p>La etiqueta <strong>main</strong> identifica el contenido principal de una página, es decir, la información más importante o central que el usuario busca.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 5/blog-structure-after-html5.png" alt="etiqueta main" height="250px" width="300px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+         <article id="p25">
+
+            <h2>footer</h2>
+            <p>La etiqueta <strong>footer</strong> se encuentra al final de la página o de una sección. Suele contener información de contacto, derechos de autor o enlaces secundarios.</p>
+
+            <br>
+            <img src="../images/images-etiqueta/grupo 5/footer.jpg" alt="etiqueta footer" height="250px" width="300px">
+
+            <br><br>
+
+        </article>
+
+        <br>
+
+    </section>
+
+
+    <footer>
+        <h2>Empresa - <a href="https://www.dgii.gov.do/Paginas/default.aspx" target="_blank" rel="noopener noreferrer">Derechos reservados</a></h2>
+        
+        <h2><a href="#">Contactanos</a></h2>
+    </footer>
+
+    
+</body>
+</html>

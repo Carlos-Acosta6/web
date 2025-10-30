@@ -1,0 +1,107 @@
+body{
+    margin: 10px 10px  10px 10px;
+    font-weight: 300;
+}
+
+/*diseño del header*/
+
+header{
+    height: 70px;
+    width: auto;
+    position: sticky;
+    border-bottom: 1px solid black;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0px 5px 10px silver; 
+
+}
+
+#img-p{
+
+    margin-left: 70px;
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+#navegacion-p a{
+
+    font-size: 20px;
+    color: black;
+    position: relative;
+    left: 150px;
+    top: -38px;
+    text-decoration: none;
+    padding-left: 40px;
+}
+
+#acerca a{
+
+    font-size: 20px;
+    color: black;
+    position: relative;
+    right: -1570px;
+    top: -63px;
+    text-decoration: none;
+    padding-left: 40px;
+}
+
+/*cuerpo (trabajo*/
+
+.contenido{
+ 
+    border-bottom: 1px solid black;
+}
+
+#contenido-p{
+    
+    position: relative;
+    left: 75px;
+   
+}
+
+li{
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+li a{
+    color: orangered;
+    font-weight: 600;
+   
+    
+}
+
+article{
+    padding-left: 70px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+article h2{
+    font-weight: bolder;
+}
+
+article p{
+    width: 800px;
+    text-align: justify;
+}
+
+footer{
+    border-top: 2px solid black;
+    background-color: silver;
+}
+
+footer h2{
+    font-size: 15px;
+
+
+}
+
+footer a{
+    color: orangered;
+}
+
+
+
