@@ -41,7 +41,8 @@ header{
     font-size: 20px;
     color: black;
     position: relative;
-    right: -1570px;
+    right: -900px;
+    /*right: -1570px;*/
     top: -63px;
     text-decoration: none;
     padding-left: 40px;
@@ -81,6 +82,7 @@ li a{
 #grupo1{
     border: 2px solid black;
     border-radius: 5px;
+  
 
 }
 
@@ -147,7 +149,7 @@ footer a{
 
 iframe{
     position: relative;
-    right: -70px;
+    right: -300px;
 }
 
 

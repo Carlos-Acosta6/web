@@ -41,7 +41,8 @@ header{
     font-size: 20px;
     color: black;
     position: relative;
-    right: -1570px;
+    right: -900px;
+    /*right: -1570px;*/
     top: -63px;
     text-decoration: none;
     padding-left: 40px;
