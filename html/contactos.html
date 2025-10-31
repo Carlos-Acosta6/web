@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas</title>
+    <link rel="stylesheet" href="../css/styleform.css">
+
+</head>
+<body>
+
+     <header id="inicio">
+
+        <img src="../images/images-index/html-5.png" alt="icon-html5" id="img-p">
+
+        <nav id="navegacion-p">
+            <a href="../index.html">Inicio</a> 
+            <a href="../html/etiquetas.html">Etiquetas </a>
+            <a href="../html/atributos.html">Atributos</a> 
+            <a href="../html/css.html">CSS </a>
+            <a href="../html/Javascript.html">JavaScript</a>
+        </nav>
+
+        <nav id="acerca">
+            <a href="../html/contactos.html">Contactos</a>
+            <a href="../html/acercade.html">Acerca de</a>
+        </nav>
+
+    </header>
+    <br>
+
+    <h2>Cuentanos tus dudas y experiencias</h2>
+
+    <form action="/enviar-formulario" method="post">
+        
+        <label for="seleccion">Tipo de asunto:</label>
+        <select name="seleccion" id="seleccion" required >
+            <option value="queja">Queja</option>
+            <option value="mejoras">Soporte</option>
+            <option value="reembolso">Reembolso</option>
+             <option value="valoracion">Valoración</option>
+        </select>
+
+        <br>
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" placeholder="correo eléctronico"  required >
+
+        <br>
+
+        <label for="mensaje">Mensaje:</label>
+        <input type="text" id="mensaje" name="mensaje" placeholder=" escriba un mensaje" required >
+        <br>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
+    <br>
+
+    <footer>
+        <h2>Empresa - <a href="https://www.dgii.gov.do/Paginas/default.aspx" target="_blank" rel="noopener noreferrer">Derechos reservados</a></h2>
+        
+        <h2><a href="#">Contactanos</a></h2>
+    </footer>
+
+    
+</body>
+</html>
