@@ -1,5 +1,5 @@
 body{
-    margin: 10px 10px 10px 10px;
+    margin: 0px 10px 0px 10px;
     font-weight: 300;
 }
 
@@ -19,7 +19,9 @@ header{
 
 #img-p{
 
-    margin-left: 70px;
+    position: relative;
+    display: inline;
+    left: 70px;
     margin-top: 10px;
     height: 50px;
     width: 50px;
@@ -30,10 +32,12 @@ header{
     font-size: 20px;
     color: black;
     position: relative;
+    display: inline-flexbox;
+    margin-left: 4%;
     left: 150px;
     top: -38px;
     text-decoration: none;
-    padding-left: 40px;
+    
 }
 
 #acerca a{
@@ -41,12 +45,16 @@ header{
     font-size: 20px;
     color: black;
     position: relative;
+    display: inline-flexbox;
+    margin-left: 4%;
     right: -900px;
     /*right: -1570px;*/
     top: -63px;
     text-decoration: none;
-    padding-left: 40px;
+    
 }
+
+
 
 /*cuerpo (trabajo*/
 
