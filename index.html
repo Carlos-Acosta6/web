@@ -1,191 +1,283 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodeTeca</title>
+    <title>Document</title>
 
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="images/images-index/html-5.png">
+
+
 </head>
+
 <body>
 
-    <header id="inicio">
+    <div class="container">
 
-        <a href="index.html"><img src="images/images-index/html-5.png" alt="icon-html5" id="img-p"></a>
+        <header class="inicio">
 
-        <nav id="navegacion-p">
-            <a href="index.html">Inicio</a> 
-            <a href="html/etiquetas.html">Etiquetas </a>
-            <a href="html/atributos.html">Atributos</a> 
-            <a href="html/css.html">CSS </a>
-            <a href="html/Javascript.html">JavaScript</a>
-        </nav>
+            <img src="images/images-index/html-5.png" alt="icon-html5" id="img-p">
 
-        <nav id="acerca">
-            <a href="html/contactos.html">Contactos</a>
-            <a href="html/acercade.html">Acerca de</a>
-        </nav>
+            <nav class="navegacion-principal">
+                <ul>
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="html/etiquetas.html">Etiquetas </a>
+                    </li>
+                    <li>
+                        <a href="html/atributos.html">Atributos</a>
+                    </li>
+                    <li>
+                        <a href="html/css.html">CSS </a>
+                    </li>
+                    <li>
+                        <a href="html/Javascript.html">JavaScript</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="nav1">
+                <a href="html/contactos.html">Contactos</a>
+                <a href="html/acercade.html">Acerca de</a>
+            </div>
+        </header>
 
-    </header>
-    <br>
-
-    <section class="contenido">
-
-        <div id="contenido-p">
-        
+        <section class="contenido">
 
             <h2>Contenido</h2>
 
             <ol>
-                <li>-<a href="#p1">¿Qué es HTML?</a></li>
-                <li>-<a href="#p2">Historia HTML</a></li>
-                <li>-<a href="#p3">Editores de HTML.</a></li>
-                <li>-<a href="#p4">Tu primer documento HTML.</a></li>
-                <li>-<a href="#p5">¿Que son Etiquetas en HTML?</a></li>
-                <li>-<a href="#p6">¿Que son Atributos en HTML?</a></li>
-                <li>-<a href="#p7">Reglas fundamentales en HTML.</a></li>
-                <li>-<a href="#p8">Etiquetas Para hacer un documento HTML.</a></li>
+                <li><a href="#p1">¿Qué es HTML?</a></li>
+                <li><a href="#p2">Historia HTML</a></li>
+                <li><a href="#p3">Editores de HTML</a></li>
+                <li><a href="#p4">Tu primer documento HTML</a></li>
+                <li><a href="#p5">¿Que son Etiquetas en HTML?</a></li>
+                <li><a href="#p6">¿Que son Atributos en HTML?</a></li>
+                <li><a href="#p7">Reglas fundamentales en HTML</a></li>
+                <li><a href="#p8">Etiquetas Para hacer un documento HTML</a></li>
             </ol>
-            
-            
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/tPzq8IufGxE?si=feLuQE7Z5iTwEXT6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        
-        </div>
-        <br>
 
-       
-     
-    </section>
-    <br>
 
-    <article id="p1">
+        </section>
 
-        <h2>¿Qué es HTML?</h2>
-        <p>El documento que lee el navegador está escrito en un lenguaje de marcado llamado HTML,<br> que son las siglas de HyperText Markup Language (Lenguaje de marcas de hipertexto),<br> o lo que es lo mismo, un lenguaje de etiquetas que permite incluir o hacer referencia a todo tipo de información.</p>
+        <main class="principal">
 
-        <br>
-        <img src="images/images-index/HTML5_logo_and_wordmark.svg.png" alt="html" height="200" width="200" >
-        <br><br>
+            <article class="articulos" id="p1">
 
-    </article>
+                <div class="info">
 
-    <br>
+                    <h2>¿Qué es HTML?</h2>
+                    <p>El documento que lee el navegador está escrito en un lenguaje de marcado llamado HTML,<br> que
+                        son las siglas de HyperText Markup Language (Lenguaje de marcas de hipertexto),<br> o lo que es
+                        lo mismo, un lenguaje de etiquetas que permite incluir o hacer referencia a todo tipo de
+                        información.
+                    </p>
 
-    <article id="p2">
+                </div>
 
-        <h2>Historia HTML</h2>
-        <p>HTML fue creado por Tim Berners-Lee en 1991 para estructurar y enlazar documentos en la web. <br>
-        En 1995 se lanzó HTML 2.0, la primera versión estándar.
-        Con HTML 4.01 (1999) se mejoró el diseño y se separó el contenido del estilo. <br>
-        Después surgió XHTML (2000), una versión más estricta basada en XML.
-        Finalmente, HTML5 (2014) modernizó el lenguaje con soporte para video, audio, gráficos y <br>etiquetas semánticas.
-        Hoy en día, HTML sigue siendo la base de todas las páginas web.</p>
+                <div class="img-ilus">
 
-        <br>
-        <img src="images/images-index/tim.jpg" alt="Tim Berneers-Lee" height="200" width="200">
+                    <img src="images/images-index/HTML5_logo_and_wordmark.svg.png" alt="html">
 
-        <br><br>
+                </div>
 
-    </article>
+            </article>
 
-    <br>
+            <article class="articulos" id="p2">
 
-     <article id="p3">
+                <div class="info">
 
-        <h2>Editores de HTML</h2>
-        <p>Los editores de HTML son programas donde se escriben y editan los códigos de una página web. Existen editores simples como Bloc de notas o Notepad++, y otros más avanzados como Visual Studio Code, Sublime Text o Atom. Estos ofrecen funciones útiles como coloreado de sintaxis, autocompletado y vista previa, lo que facilita mucho la creación de páginas web.</p>
+                    <h2>Historia HTML</h2>
+                    <p>HTML fue creado por Tim Berners-Lee en 1991 para estructurar y enlazar documentos en la web. <br>
+                        En 1995 se lanzó HTML 2.0, la primera versión estándar.
+                        Con HTML 4.01 (1999) se mejoró el diseño y se separó el contenido del estilo. <br>
+                        Después surgió XHTML (2000), una versión más estricta basada en XML.
+                        Finalmente, HTML5 (2014) modernizó el lenguaje con soporte para video, audio, gráficos y
+                        <br>etiquetas semánticas.
+                        Hoy en día, HTML sigue siendo la base de todas las páginas web.
+                    </p>
 
-        <br>
-        <img src="images/images-index/editores.jpg" alt="editores html" height="200" width="300">
+                </div>
 
-        <br><br>
+                <div class="img-ilus">
 
-    </article>
+                    <img src="images/images-index/tim.jpg" alt="Tim Berneers-Lee">
 
-    <br>
+                </div>
 
-    <article id="p4">
-
-        <h2>Tu primer documento HTML.</h2>
-        <p>Un documento HTML siempre comienza con la etiqueta !DOCTYPE html para indicar su tipo. Luego se usan las etiquetas html, head> y body para estructurar el contenido. En el head se coloca el título y la información del documento, mientras que en el body va el contenido visible como textos, imágenes o enlaces. Con solo unas pocas líneas de código, ya se puede crear una página básica.</p>
-
-        <br>
-        <img src="images/images-index/estructura-documento-html.png" alt="estructura de un documento hmtl" height="200" width="400">
-
-        <br><br>
-
-    </article>
-
-    <br>
-
-    <article id="p5">
-
-        <h2>¿Qué son Etiquetas en HTML?</h2>
-        <p>Las etiquetas en HTML son instrucciones que indican cómo se debe mostrar o estructurar un contenido. Siempre van entre los signos "<" ">" y suelen tener una etiqueta de apertura y otra de cierre, como <strong>p</strong>. Cada etiqueta cumple una función específica, por ejemplo <strong>h1</strong> para títulos, <strong>p</strong> para párrafos o <strong>img</strong>para imágenes. Son esenciales para que el navegador entienda la estructura del documento.</p>
-
-        <br>
-        <img src="images/images-index/p.png" alt="etiquetas html" height="200" width="400">
-
-        <br><br>
-
-    </article>
-
-    <br>
-
-    <article id="p6">
-
-        <h2>¿Qué son Atributos en HTML?</h2>
-        <p>Los atributos son propiedades que se agregan dentro de una etiqueta para darle más información o modificar su comportamiento. Por ejemplo, en <strong>img src="foto.jpg" alt="Foto"</strong>, los atributos src y alt indican la fuente de la imagen y su descripción. Todos los atributos se colocan dentro de la etiqueta de apertura y ayudan a personalizar cómo se muestra o funciona cada elemento.</p>
-
-        <br>
-        <img src="images/images-index/atributos-de-HTML.jpg" alt="atributos html" height="200" width="400">
-
-        <br><br>
-
-    </article>
-
-    <br>
-
-    <article id="p7">
-
-        <h2>Reglas fundamentales en HTML.</h2>
-        <p>En HTML, cada documento debe tener una estructura básica: <strong>!DOCTYPE html, html, head y body</strong>. Las etiquetas deben abrirse y cerrarse correctamente para evitar errores. Además, no se debe olvidar la sangría y el orden, ya que ayudan a mantener el código limpio y entendible. Por último, es importante respetar las mayúsculas y minúsculas en las rutas o nombres de archivos.</p>
-
-        <br>
-        <img src="images/images-index/reglas.jpg" alt="reglas de html" height="400" width="400">
-
-        <br><br>
-
-    </article>
-
-    <br>
-
-     <article id="p8">
-
-        <h2>Etiquetas Para hacer un documento HTML.</h2>
-        <p>En HTML, cada documento debe tener una estructura básica: <strong>!DOCTYPE html, html, head y body</strong>. Las etiquetas deben abrirse y cerrarse correctamente para evitar errores. Además, no se debe olvidar la sangría y el orden, ya que ayudan a mantener el código limpio y entendible. Por último, es importante respetar las mayúsculas y minúsculas en las rutas o nombres de archivos.</p>
-
-        <br>
-        <img src="images/images-index/estructura-documento-html.png" alt="etiquetas para crear un documento" height="200" width="400">
-
-        <br><br>
-
-    </article>
-    <br>
-
-    <footer>
-        <h2>Empresa - <a href="https://www.dgii.gov.do/Paginas/default.aspx" target="_blank" rel="noopener noreferrer">Derechos reservados</a></h2>
-        
-        <h2><a href="html/contactos.html">Contactanos</a></h2>
-    </footer>
+            </article>
 
 
 
+            <article class="articulos" id="p3">
+
+                <div class="info">
+
+                    <h2>Editores de HTML</h2>
+                    <p>Los editores de HTML son programas donde se escriben y editan los códigos de una página web.
+                        Existen
+                        editores simples como Bloc de notas o Notepad++, y otros más avanzados como Visual Studio Code,
+                        Sublime Text o Atom. Estos ofrecen funciones útiles como coloreado de sintaxis, autocompletado y
+                        vista previa, lo que facilita mucho la creación de páginas web.
+                    </p>
+
+                </div>
+
+                <div class="img-ilus">
+
+                    <img src="images/images-index/editores.jpg" alt="editores html">
+
+                </div>
+
+            </article>
+
+            <article class="articulos" id="p4">
+
+                <div class="info">
+
+                    <h2>Tu primer documento HTML.</h2>
+                    <p>Un documento HTML siempre comienza con la etiqueta
+                        <!DOCTYPE html> para indicar su tipo. Luego se usan las etiquetas <html>,
+
+                        <head> y
+
+                        <body> para estructurar el contenido. En el
+
+                            <head> se coloca el título y la información del documento, mientras que en el
+
+                            <body> va el contenido visible como textos, imágenes o enlaces. Con solo unas pocas líneas
+                                de
+                                código, ya se puede crear una página básica.
+                    </p>
+
+                </div>
+
+                <div class="img-ilus">
+
+                    <img src="images/images-index/estructura-documento-html.png" alt="estructura de un documento hmtl">
+
+                </div>
+
+            </article>
+
+
+
+            <article class="articulos" id="p5">
+
+                <div class="info">
+
+                    <h2>¿Qué son Etiquetas en HTML?</h2>
+                    <p>Las etiquetas en HTML son instrucciones que indican cómo se debe mostrar o estructurar un
+                        contenido.
+                        Siempre van entre los signos <> y suelen tener una etiqueta de apertura y otra de cierre, como
+                            <strong>p</strong>. Cada etiqueta cumple una función específica, por ejemplo
+                            <strong>h1</strong>
+                            para títulos, <strong>p</strong> para párrafos o <strong>img</strong>para imágenes. Son
+                            esenciales para que el navegador entienda la estructura del documento.</p>
+
+                </div>
+
+                <div class="img-ilus">
+
+                    <img src="images/images-index/p.png" alt="etiquetas html" height="200px" width="400px">
+
+                </div>
+
+            </article>
+
+            <article class="articulos" id="p6">
+
+                <div class="info">
+
+                    <h2>¿Qué son Atributos en HTML?</h2>
+                    <p>Los atributos son propiedades que se agregan dentro de una etiqueta para darle más información o
+                        modificar su comportamiento. Por ejemplo, en <strong>img src="foto.jpg" alt="Foto"</strong>, los
+                        atributos src y alt indican la fuente de la imagen y su descripción. Todos los atributos se
+                        colocan
+                        dentro de la etiqueta de apertura y ayudan a personalizar cómo se muestra o funciona cada
+                        elemento.
+                    </p>
+
+                </div>
+
+                <div class="img-ilus">
+
+                    <img src="images/images-index/atributos-de-HTML.jpg" alt="atributos html" height="200px"
+                        width="400px">
+
+                </div>
+
+            </article>
+
+            <article class="articulos" id="p7">
+
+                <div class="info">
+
+                    <h2>Reglas fundamentales en HTML.</h2>
+                    <p>En HTML, cada documento debe tener una estructura básica: <strong>!DOCTYPE html, html, head y
+                            body</strong>. Las etiquetas deben abrirse y cerrarse correctamente para evitar errores.
+                        Además,
+                        no se debe olvidar la sangría y el orden, ya que ayudan a mantener el código limpio y
+                        entendible.
+                        Por último, es importante respetar las mayúsculas y minúsculas en las rutas o nombres de
+                        archivos.
+                    </p>
+
+                </div>
+
+                <div class="img-ilus">
+
+                    <img src="images/images-index/reglas.jpg" alt="reglas de html" height="400px" width="400px">
+
+                </div>
+
+            </article>
+
+            <article class="articulos" id="p8">
+
+                <div class="info">
+
+                    <h2>Etiquetas Para hacer un documento HTML.</h2>
+                    <p>En HTML, cada documento debe tener una estructura básica: <strong>!DOCTYPE html, html, head y
+                            body</strong>. Las etiquetas deben abrirse y cerrarse correctamente para evitar errores.
+                        Además,
+                        no se debe olvidar la sangría y el orden, ya que ayudan a mantener el código limpio y
+                        entendible.
+                        Por último, es importante respetar las mayúsculas y minúsculas en las rutas o nombres de
+                        archivos.
+                    </p>
+
+                </div>
+
+                <div class="img-ilus">
+
+                    <img src="images/images-index/estructura-documento-html.png" alt="etiquetas para crear un documento">
+
+                </div>
+
+            </article>
+
+
+            <footer>
+                <h2>Empresa - <a href="https://www.dgii.gov.do/Paginas/default.aspx" target="_blank"
+                        rel="noopener noreferrer">Derechos reservados</a></h2>
+
+                <h2><a href="#">Contactanos</a></h2>
+            </footer>
+
+        </main>
+
+    </div>
 
 
 
 
-    
+
+
+
+
 </body>
+
 </html>
