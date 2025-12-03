@@ -25,7 +25,7 @@ body{
 /*diseño del header*/
 
 .inicio{
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,7 +44,7 @@ ul, li, a{
 .navegacion-principal ul, li{
 
     display: inline-block;
-    padding: 0 30px;  
+    padding: 0 20px;  
 }
 
 #img-p{
@@ -62,6 +62,15 @@ a:hover, a:focus{
 .nav1 {
     display: flex;
     gap: 25px;
+}
+
+.menu{
+    display: none;
+    
+}
+
+.menu img{
+    width: 50px;
 }
 
 
@@ -161,6 +170,18 @@ footer h2{
     .articulos{
         display: block;
 
+    }
+
+    .navegacion-principal{
+        display: none;
+    }
+
+    .nav1{
+        display: none;
+    }
+
+    .menu{
+        display: block;
     }
 
     .info p{
