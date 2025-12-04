@@ -76,40 +76,10 @@ a:hover, a:focus{
 
 /*cuerpo (trabajo*/
 
-.contenido{
-    text-align: center;
-    padding: 12px 30px;
-    margin-bottom: 50px;
-}
-
-.contenido h2{
-    font-size: 3.2rem;
-}
-
-
-.contenido ol{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    font-size: 1.8rem;
-    margin-top: 15px;
-}
-
 .principal{
-    padding: 0 30px;
+    padding: 30px 30px;
 }
 
-.articulos{
-    display: grid;
-    grid-template-columns: 60% 40%;
-    text-align: center;
-    margin-bottom: 4rem;
-    padding: 30px;
-    border-radius: 3px;
-    gap: 10px;
-    
-}
 
 .info{
     align-content: center;
@@ -120,34 +90,42 @@ a:hover, a:focus{
     font-size: 4rem;
     font-weight: bold;
     margin-bottom: 10px;
+    text-align: center;
 
 }
 
 .info p{
     font-size: 1.8rem;
+    text-align: justify;
+    line-height: 1.5;
     
 }
 
-.img-ilus{
+.container-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    align-items: baseline;
+    margin-bottom: 22px;
+}
+
+.info-p h2{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.listas-especiales{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
 }
 
-.img-ilus img{
 
-    display: inline-flex;
-    max-width: 250px;
-    width: 100%;
-    max-height: 300px;
-    height: 100%;
-    border-radius: 3px;
 
-}
-
-.articulos:nth-child(2n + 1){
-    background-color: orangered;
-    color: white;
+.listas-especiales li{
+    font-size: 1.8rem;
+    font-weight: 520;
+    
 }
 
 footer{
@@ -158,25 +136,19 @@ footer{
 footer h2{
     font-size: 15px;
 
-
 }
-
-
-
 
 @media (max-width: 860px)  {
 
-    .articulos{
-        grid-template-columns: 100%;
+    .container-grid{
+        grid-template-columns: 1fr;
+        gap: 20px;
+        align-items: center;
 
     }
 
     .navegacion-principal{
         display: none;
-    }
-
-    .img-ilus{
-        margin-top: 30px;
     }
 
     .nav1{
@@ -191,20 +163,31 @@ footer h2{
         text-align: justify;
     }
 
+    .info-p:first-child{
+        border-bottom: 2px solid black;
+    }
+
+    .listas-especiales{
+        margin-bottom: 20px;
+    }
+
 }
 
 @media (max-width: 425px){
 
-    .info h2{
+     .container-grid{
+        grid-template-columns: 100%;
+     }
+
+    .info h2, .info-p h2 {
     font-size: 2.8rem
 
     }
 
-    .info p{
+    .info p, .info-p li{
     font-size: 1.7rem;
     
     }
-
 
 }
 
